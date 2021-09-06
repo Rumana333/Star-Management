@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138" height="138" viewBox="0 0 138 138">
+  <defs>
+    <filter id="Path_79373" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ic_ATPV" transform="translate(-880 -2627)">
+    <g id="Group_163365" data-name="Group 163365" transform="translate(133 884)">
+      <g id="Group_163346" data-name="Group 163346" transform="translate(756 1749)">
+        <g id="Group_163335" data-name="Group 163335" transform="translate(0)">
+          <g id="Group_163331" data-name="Group 163331">
+            <g id="Group_162574" data-name="Group 162574">
+              <g id="Group_162560" data-name="Group 162560">
+                <g id="Group_162559" data-name="Group 162559">
+                  <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_79373)">
+                    <path id="Path_79373-2" data-name="Path 79373" d="M60,0A60,60,0,1,1,0,60,60,60,0,0,1,60,0Z" transform="translate(9 6)" fill="#fff"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="movie-player" transform="translate(902 2615)">
+      <g id="Group_162366" data-name="Group 162366" transform="translate(37 65)">
+        <g id="Group_162365" data-name="Group 162365" transform="translate(0 0)">
+          <path id="Path_74139" data-name="Path 74139" d="M208.378,148.953a1.363,1.363,0,0,0-.518-.518l-21.821-12.274A1.364,1.364,0,0,0,184,137.349V161.9a1.37,1.37,0,0,0,2.039,1.188l21.821-12.274A1.364,1.364,0,0,0,208.378,148.953Zm-21.65,10.612V139.681l17.675,9.942Z" transform="translate(-184 -135.982)" fill="rgba(252,79,25,0.99)" stroke="#fc511c" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="Group_162370" data-name="Group 162370" transform="translate(15 46)">
+        <g id="Group_162369" data-name="Group 162369" transform="translate(0 0)">
+          <path id="Path_74141" data-name="Path 74141" d="M144.5,88A32.5,32.5,0,1,0,177,120.5,32.5,32.5,0,0,0,144.5,88Zm0,60.938A28.438,28.438,0,1,1,172.937,120.5,28.437,28.437,0,0,1,144.5,148.938Z" transform="translate(-112 -88)" fill="rgba(252,79,25,0.99)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138" height="138" viewBox="0 0 138 138">
+  <defs>
+    <filter id="Ellipse_3227" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_6" data-name="6" transform="translate(-582 -2627)">
+    <g transform="matrix(1, 0, 0, 1, 582, 2627)" filter="url(#Ellipse_3227)">
+      <circle id="Ellipse_3227-2" data-name="Ellipse 3227" cx="60" cy="60" r="60" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="microphone" transform="translate(548 2661)">
+      <path id="Path_74137" data-name="Path 74137" d="M158.326,44.545h1.523A13.341,13.341,0,0,0,173.174,31.22V13.452A13.4,13.4,0,0,0,159.848,0h-1.523A13.4,13.4,0,0,0,145,13.428V31.22A13.341,13.341,0,0,0,158.326,44.545Zm0-40.738h1.523a9.576,9.576,0,0,1,9.449,8.5h-3.1a1.9,1.9,0,0,0,0,3.807h3.173v4.315h-5.2a1.9,1.9,0,0,0,0,3.807h5.2v4.315h-3.173a1.9,1.9,0,0,0,0,3.807h3.1a9.53,9.53,0,0,1-9.447,8.376h-1.523a9.53,9.53,0,0,1-9.447-8.376h3.1a1.9,1.9,0,1,0,0-3.807h-3.173V24.24h5.2a1.9,1.9,0,0,0,0-3.807h-5.2V16.118h3.173a1.9,1.9,0,1,0,0-3.807h-3.1A9.576,9.576,0,0,1,158.326,3.807Z" transform="translate(-55.878)" fill="rgba(252,79,25,0.99)"/>
+      <path id="Path_74138" data-name="Path 74138" d="M125.419,226.9a1.9,1.9,0,0,0-3.807,0,18.4,18.4,0,1,1-36.8,0,1.9,1.9,0,0,0-3.807,0,22.238,22.238,0,0,0,20.306,22.127v8.585H91.026a1.9,1.9,0,0,0,0,3.807h24.367a1.9,1.9,0,1,0,0-3.807h-10.28V249.03A22.238,22.238,0,0,0,125.419,226.9Z" transform="translate(0 -196.423)" fill="rgba(252,79,25,0.99)"/>
+    </g>
+  </g>
+</svg>
