@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> School Management System </title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<style>
+	p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+   #div-1{ 
+           margin-left: 250px;
+           margin-right: 15px;
+           padding-left: 15px;
+           margin-top: 15px;
+         }
+    img {
+    	   margin-right: 15px;
+    	   margin-top: 15px;
+    	   margin-left: 25px;
+        }
+    #div-2{ 
+           margin-left: 40px;
+           margin-right: 15px;
+           padding-left: 15px;
+           margin-top: 15px;
+         }
+
+   
+</style>
+
+
+</head>
+<body style="background-color: #ffffcc">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="School management system.html"> <font color="white"> Home </font> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About us.html"> <font color="white"> About us </font> </a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> <font color="white"> Resources </font> </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <font color="white">  Services </font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="School features.html"> School management</a>
+          <a class="dropdown-item" href="College features.html"> College management </a>
+          <a class="dropdown-item" href="Web designing.html"> Web designing </a>
+          <a class="dropdown-item" href="Online classroom.html"> Online classroom </a>
+          <a class="dropdown-item" href="Index.html"> Index </a>
+          
+
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Contact us.html"> <font color="white"> Contact us </font> </a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" style="margin-left: 600px">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-slider" data-slide-to="1"></li>
+    <li data-target="#carousel-slider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Slider-1.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 80vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="Slider-2.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 80vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="Slider-3.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 80vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="Slider-4.jpg" class="d-block w-100" alt="..." style="width: 100%; height: 80vh;">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   
+    <div class="row">  
+    <div class="col-md-4">
+      <img src="Content-3.jpg" alt="..." style="width: 50vw; height: 50vh;">
+    </div>    
+    <div class="col-md-8">
+     <div id="div-1" style=""> 
+        <h4 class="card-title" style="font-weight: 500; font-size: 35px;"> <font color="red"> Why School Management System requires..??? </font> </h4>
+        <p class="card-text"> School Management Systems Plays an essential role in the current educational system. School authorities all over the world are engaged in a lot of day-to-day administrative and academic activities to manage and provide a better academic experience to students effectively. However, maintaining and keeping track of school administrative activities is not an easy process in the fast-growing world. It requires hard work and often it is time-consuming.</p>
+        <p class="card-text"> School Management software does it by avoiding the manual paper works and automation of many academic and administrative activities. </p>
+      </div>
+     </div> 
+   </div>
+
+   <div>
+   </div>
+
+    <div class="row">          
+    <div class="col-md-8">
+     <div id="div-2"> 
+        <h4 class="card-title" style="font-weight: 500; font-size: 35px;"> <font color="red">What is the Importance Of The School Management System??? </font> </h4>
+        <p class="card-text"> In today’s world, administration & management of organizations, particularly educational institutions, has become a tedious and complex task. There are various activities and curriculum tasks, which needs to handle with careful planning, to the point control of the administrative process and systematic approach to help students, their parents, teachers and even the management of the educational institution. Star school management System is a powerful tool to manage all your administrative task with a single line integrated system.</p>   
+      </div>
+    </div>
+       <div class="col-md-4" id="divimg2">
+      <img src="Content img-4.png" alt="..." style="width: 30vw; height: 50vh; margin-left: 15px;background-color: #ff80b3">
+    </div> 
+     </div> 
+   </div>
+
+   <div> </div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-4 col-lg-3 my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="admission_management.svg" alt="admission_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Admission Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Admission Management</h4>
+<ul class="list-icon">
+<li>Admission Inquiry</li>
+<li>Admission Form</li>
+<li>Convert inquiry into confirmation</li>
+<li>Direct Link with student management</li>
+<li>Configurable with website for online admission</li>
+<li>Admission Follow up details</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3  my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="student_management.svg" alt="student_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Student Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Student Management</h4>
+<ul class="list-icon">
+ <li>Complete profile with photographs</li>
+<li>Family and guardian detail</li>
+<li>Facility for uploading documents</li>
+<li> Data import &amp; Bulk upload facility</li>
+<li>Auto roll number generation</li>
+<li>Inbuilt ID card</li>
+<li>Well designed reports</li>
+<li>Custom search reports</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="attendance_management.svg" alt="attendance_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Attendance Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Attendance Management</h4>
+<ul class="list-icon">
+<li>Subject wise Attendance</li>
+<li>Day wise/Repeat attendance</li>
+<li>Quick attendance</li>
+<li>Daily/Monthly/yearly attendance reports</li>
+<li>Cumulative attendance</li>
+<li>Percentage attendance</li>
+<li> SMS alert to absentees </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="fees_management.svg" alt="fees_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Fees Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Fees Management</h4>
+<ul class="list-icon">
+<li>
+Advanced fee setup for multiple fee category with deposit
+</li>
+<li>
+Student wise concession/Addition
+</li>
+<li>
+Multi receipt book configuration
+</li>
+<li>
+Auto fee receipt generation
+</li>
+<li>
+Auto SMS alert on payment
+</li>
+<li>
+Mapping with Account
+</li>
+<li>
+Comprehensive reports
+</li>
+</ul>
+ </div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="student_assessment.svg" alt="student_assessment" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Student Assessment</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Student Assessment</h4>
+<ul class="list-icon">
+<li>
+Support all board pattern (CBSE, ICSE, IB and state board)
+</li>
+<li>
+CCE pattern
+</li>
+<li>
+Combine exam and marks converter
+</li>
+<li>
+Fully user defined mark-sheet generator with 40+ inbuilt design
+</li>
+<li>
+Statistical, chart &amp; graphical
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="human_resource.svg" alt="human_resource" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Human Resource</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Human Resource</h4>
+<ul class="list-icon">
+<li>
+Manage employee from recruitment to retirement
+</li>
+<li>
+Store basic ,personal, job, statutory &amp; communication detail
+</li>
+<li>
+Bulk data upload facility
+</li>
+<li>
+Inbuilt employee ID card
+</li>
+<li>
+Comprehensive employee report
+</li>
+<li>
+Custom employee search
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="employee_leave_management.svg" alt="employee_leave_management" class="img-fluid">
+ <p class="features-card-text text-white rgba-black-light p-2">Employee Leave Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Employee Leave Management</h4>
+<ul class="list-icon">
+<li>
+Define leave type
+</li>
+<li>
+Grade wise leave settings
+</li>
+<li>
+Employee leave form with applicable leave
+</li>
+<li>
+Leave approval process
+</li>
+<li>
+Employee leave report
+</li>
+<li>
+Employee monthly attendance report
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="payroll_management.svg" alt="payroll_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Payroll Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Payroll Management</h4>
+<ul class="list-icon">
+<li>
+Configurable fee heads
+</li>
+<li>
+Define separate payroll for multiple department
+</li>
+<li>
+Auto calculation for dependent fee head
+</li>
+<li>
+PF and Tax deduction
+</li>
+<li>
+Employee payroll slip
+</li>
+<li>
+Yearly and monthly payroll reports
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="certificates.svg" alt="certificates" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Certificates</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Certificates</h4>
+ <ul class="list-icon">
+<li>
+Leaving certificate
+</li>
+<li>
+Bonafide certificate
+</li>
+<li>
+First trial certificate
+</li>
+<li>
+Transfer certificate
+</li>
+<li>
+Transcript
+</li>
+<li>
+Character certificate
+</li>
+<li>
+Custom design template
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3  my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="scholarship.svg" alt="Scholarship" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Scholarship</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Scholarship</h4>
+<ul class="list-icon">
+<li>
+Define scholarship
+</li>
+<li>
+Add student eligible for scholarship
+</li>
+<li>
+Scholarship amount received
+</li>
+<li>
+Scholarship paid to student
+</li>
+<li>
+Scholarship reports
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="timetable_management.svg" alt="timetable_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Timetable Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Timetable Management</h4>
+<ul class="list-icon">
+<li>
+Alert on exceeding subject limits
+</li>
+<li>
+Alert for teacher occupancy
+</li>
+<li>
+ Timetable for students
+</li>
+<li>
+Timetable for teachers
+</li>
+<li>
+Proxy setting
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3  my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="academic.svg" alt="academic" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Academic</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Academic</h4>
+<ul class="list-icon">
+<li>
+Update daily classwork
+</li>
+<li>
+Assign homework
+</li>
+<li>
+Organize lesson plan
+</li>
+<li>
+Syllabus scheduling
+</li>
+<li>
+Update completed lesson
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3  my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="front_office.svg" alt="front_office" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Front Office</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Front Office</h4>
+<ul class="list-icon">
+<li>
+Visitor log
+</li>
+<li>
+Visitor's check-in check-out entry
+</li>
+<li>
+Purpose and reference employee detail
+</li>
+<li>
+Generate gate pass
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="MIS_core_modules.svg" alt="MIS" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">MIS</p>
+<div class="overlay pt-3">
+ <div class="text-left">
+<h4 class="features-card-hover-heading text-center">MIS</h4>
+<ul class="list-icon">
+<li>
+Class capacity report
+</li>
+<li>
+New admission list report
+</li>
+<li>
+Left out students report
+</li>
+<li>
+Student strength
+</li>
+<li>
+Attendance status
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3  filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="health.svg" alt="health" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Health</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Health</h4>
+<ul class="list-icon">
+<li>
+Manage health check-up data
+</li>
+<li>
+Student health track records
+</li>
+<li>
+Predefined health check-up template
+</li>
+<li>
+Customize health check-up template
+</li>
+<li>
+Report major abnormalities
+</li>
+<li>
+Immunization chart
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3  my-3 filter core" style="display: block;">
+<div class="content text-center">
+<img loading="lazy" src="event_activity_management.svg" alt="event_activity_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Event &amp; Activity Management
+</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Event &amp; Activity Management</h4>
+<ul class="list-icon">
+<li>
+School calender
+</li>
+<li>
+Upcoming event/activities
+</li>
+ <li>
+Enrollment facility
+</li>
+<li>
+User define color scheme
+</li>
+<li>
+Index integration
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="library_management.svg" alt="library_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Library Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Library Management</h4>
+<ul class="list-icon">
+<li>
+Manage multiple libraries
+</li>
+<li>
+Bar code integration for easy tracking
+</li>
+<li>
+Define rule for book issue
+</li>
+<li>
+Class wise book allocation
+</li>
+<li>
+Book reservation facilities
+</li>
+<li>
+Manage book due
+</li>
+<li>
+Library reports
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="hostel_management.svg" alt="hostel_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Hostel Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Hostel Management</h4>
+<ul class="list-icon">
+<li>
+Manage multiple hostel
+</li>
+<li>
+Define room type and room charge
+</li>
+<li>
+Easy search window for room availability
+</li>
+<li>
+Integrated with fee module
+ </li>
+<li>
+Hostel reports
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="transport_management.svg" alt="transport_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Transport Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Transport Management</h4>
+<ul class="list-icon">
+<li>
+Create route with pick up point &amp; drop point
+</li>
+<li>
+Flexibility to manage one way transportation
+</li>
+<li>
+Auto integration with fee module
+</li>
+<li>
+Route wise student report
+</li>
+<li>
+Pickup point wise student list report
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="inventry_management.svg" alt="inventry_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Inventory Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Inventory Management</h4>
+<ul class="list-icon">
+<li>
+Define store &amp; stock category
+</li>
+<li>
+Vendor list and contact detail
+</li>
+<li>
+Safety stock alert
+</li>
+<li>
+Stock item purchase process
+</li>
+<li>
+Stock item consumption
+</li>
+<li>
+Stock issue and stock return
+</li>
+<li>
+Stock transaction reports
+</li>
+</ul>
+</div>
+ </div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="asset_management.svg" alt="asset_management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Asset Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Asset Management</h4>
+<ul class="list-icon">
+<li>
+Auto asset tag generation
+</li>
+<li>
+Auto maintenance alert
+</li>
+<li>
+Maintenance log
+</li>
+<li>
+Asset audit &amp; verification
+</li>
+<li>
+Organization asset reports
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 my-3 filter resource" style="display: none;">
+<div class="content text-center">
+<img loading="lazy" src="finance-management.svg" alt="finance-management" class="img-fluid">
+<p class="features-card-text text-white rgba-black-light p-2">Finance Management</p>
+<div class="overlay pt-3">
+<div class="text-left">
+<h4 class="features-card-hover-heading text-center">Finance Management</h4>
+<ul class="list-icon">
+<li>
+Credit and debit voucher entry
+</li>
+<li>
+Profit and loss
+</li>
+<li>
+Balance sheet
+</li>
+<li>
+Ledger book and day book
+</li>
+<li>
+Cash and bank book
+</li>
+<li>
+Tarij and trial balance
+</li>
+<li>
+Much similar to Tally
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class="  text-center">
+<img loading="lazy" src="ic_newspaper.svg" alt="ic_newspaper" class="img-fluid">
+<p>News</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_discussion.svg" alt="ic_discussion" class="img-fluid">
+<p>Discussion</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_query_feedback.svg" alt="ic_query_feedback" class="img-fluid">
+<p>Query Feedback</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_placement.svg" alt="Placement" class="img-fluid">
+<p>Placement</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_poll.svg" alt="poll" class="img-fluid">
+<p>Poll</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_blog.svg" alt="blog" class="img-fluid">
+<p>Blog</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_disciplinary.svg" alt="Disciplinary" class="img-fluid">
+<p>Disciplinary</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_circular.svg" alt="circular" class="img-fluid">
+<p>Circular</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_task.svg" alt="task" class="img-fluid">
+<p>Task</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_gallery.svg" alt="gallery" class="img-fluid">
+<p>Gallery</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_email_alert.svg" alt="email_alert" class="img-fluid">
+<p>Email Alerts</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter communication" style="display: none;">
+<div class="card hover-card">
+<div class=" text-center">
+<img loading="lazy" src="ic_sms_alerts.svg" alt="sms_alert" class="img-fluid">
+<p>SMS Alerts</p>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_dashboard.svg" alt="ic_dashboard" class="img-fluid">
+<p>Dashboard</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_standard_report.svg" alt="ic_standard_report" class="img-fluid">
+<p>Standard Report</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_custom_report.svg" alt="ic_custom_report" class="img-fluid">
+<p>Custom Report</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_metrics.svg" alt="ic_metrics" class="img-fluid">
+<p>Metrics</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_data_analysis.svg" alt="ic_data_analysis" class="img-fluid">
+<p>Data Analysis</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter data" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_data_import.svg" alt="ic_data_import" class="img-fluid">
+<p>Data Import</p>
+ </div>
+</div>
+</div>
+
+
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_sms_integration.svg" alt="ic_sms" class="img-fluid">
+<p>SMS</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_biometric_integration.svg" alt="ic_biometric" class="img-fluid">
+<p>Biometric</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_online_exam.svg" alt="ic_online_exam" class="img-fluid">
+<p>Online Exam</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_portal.svg" alt="ic_portal" class="img-fluid">
+<p>Portal</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_moodle.svg" alt="ic_moodle" class="img-fluid">
+<p>Moodle</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_tally.svg" alt="ic_tally" class="img-fluid">
+<p>Tally</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_mobile_apps.svg" alt="ic_mobile_apps" class="img-fluid">
+<p>Indexs</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+<div class="text-center">
+<img loading="lazy" src="ic_dynamic_website.svg" alt="ic_dynamic_website" class="img-fluid">
+<p>Dynamic website</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-lg-3 filter integration" style="display: none;">
+<div class="card  hover-card">
+ <div class="text-center">
+<img loading="lazy" src="ic_online_payment.svg" alt="ic_dynamic_website" class="img-fluid">
+<p>Online Payment</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+   <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" style="background-color: black; color: white">
+
+  <div >
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5" style="background-color: black">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold"><font color="white"> Star School Management </font></h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Its a company which would help you in developing your schools, colleges, coaching centres, etc. We would help you to manage the student records, results and other works just through a click. For more information contact us on the given number or you can also mail us.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+-
+        <!-- Links -->-
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="School management.html.html"> Home </a>
+        </p>
+        <p>
+          <a href="About us.html"> About us</a>
+        </p>
+        <p>
+          <a href="Contact us.html"> Contact us</a>
+        </p>
+        <p>
+          <a href="Index.html">Services</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="About us.html">Your Account</a>
+        </p>
+        <p>
+          <a href="Contact us.html">Your feedback</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> Rajkot-1, Gujarat, India</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>
